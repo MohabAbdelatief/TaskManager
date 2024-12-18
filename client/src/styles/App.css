@@ -1,0 +1,7 @@
+.app-container {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}

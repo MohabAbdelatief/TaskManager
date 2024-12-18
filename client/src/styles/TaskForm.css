@@ -1,0 +1,37 @@
+.task-form {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.input-title,
+.input-description {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-title:focus,
+.input-description:focus {
+  border-color: #999;
+  outline: none;
+}
+
+.add-task-button {
+  padding: 8px 16px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background: #45a049;
+}

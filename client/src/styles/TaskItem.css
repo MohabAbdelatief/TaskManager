@@ -1,0 +1,117 @@
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.task-item.completed .task-details h3,
+.task-item.completed .task-details p {
+  text-decoration: line-through;
+}
+
+.task-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.task-details p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.toggle-button,
+.edit-button,
+.delete-button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  background: #2196F3;
+  color: #fff;
+}
+
+.toggle-button:hover {
+  background: #1976D2;
+}
+
+.edit-button {
+  background: #FF9800;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background: #FB8C00;
+}
+
+.delete-button {
+  background: #f44336;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background: #d32f2f;
+}
+
+/* Edit form styles */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-form-fields input,
+.edit-form-fields textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-form-fields input:focus,
+.edit-form-fields textarea:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.edit-form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.save-button,
+.cancel-button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.save-button {
+  background: #4CAF50;
+}
+
+.save-button:hover {
+  background: #45a049;
+}
+
+.cancel-button {
+  background: #757575;
+}
+
+.cancel-button:hover {
+  background: #616161;
+}
